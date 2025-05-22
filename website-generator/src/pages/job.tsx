@@ -14,6 +14,12 @@ export const JobPage: FC = () => {
                             >Λεύκιππος</a>
                         </div>
                     </li>
+                    <li>
+                        <div>
+                            <a href="https://estia.hua.gr/browse/28586" target="_blank"
+                               style={{color:'white'}}> Η πτυχιακή μου</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
 
