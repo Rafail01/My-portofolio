@@ -20,6 +20,7 @@ export const JobPage: FC = () => {
                                style={{color:'white'}}> Η πτυχιακή μου</a>
                         </div>
                     </li>
+
                 </ul>
             </div>
 
