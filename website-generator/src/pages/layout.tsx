@@ -4,9 +4,9 @@ export const Layout: FC = ({children}) => {
   return (
       <html lang="en">
       <head>
-        <title>Λεύκιππος Χορευτικός Όμιλος</title>
+        <title>Ραφαήλ Ντυμένος</title>
         <meta name="keywords" content="Leukipos,Λεύκιππος Χορευτικός Όμιλος,χορός,"/>
-        <link rel="icon" type="image/jpeg" href="/static/img/logo_final.jpg" />
+        {/*<link rel="icon" type="image/jpeg" href="/static/img/logo_final.jpg" />*/}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
         <link rel="stylesheet" href="/static/style.css"/>
         <link
@@ -37,10 +37,7 @@ export const Layout: FC = ({children}) => {
         <div className="navbar container">
           <ul>
             <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="location.html">Location</a></li>
-            <li><a href="news.html">News</a></li>
+            <li><a href="/jobs">Jobs</a></li>
           </ul>
         </div>
       </header>
