@@ -1,0 +1,18 @@
+{
+  "name": "my-app",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "hono": "4.7.7",
+    "leaflet": "^1.9.4",
+    "lightgallery": "^2.8.3",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@hono/vite-dev-server": "0.3.4",
+    "vite": "5.0.11"
+  }
+}
