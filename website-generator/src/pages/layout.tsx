@@ -9,26 +9,9 @@ export const Layout: FC = ({children}) => {
         <link rel="icon" type="image/jpeg" href="/static/img/logo.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
         <link rel="stylesheet" href="/static/style.css"/>
-        {/*<link*/}
-        {/*    rel="stylesheet"*/}
-        {/*    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"*/}
-        {/*/>*/}
-        {/*<script*/}
-        {/*    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"*/}
-        {/*    defer*/}
-        {/*></script>*/}
-        {/*<script*/}
-        {/*    src="static/js/location.js"*/}
-        {/*    defer*/}
-        {/*></script>*/}
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery.min.css" />
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery/css/lg-zoom.min.css" />
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery/css/lg-thumbnail.min.css" />
-          {/*<script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.min.js" defer></script>*/}
-          {/*<script src="https://cdn.jsdelivr.net/npm/lightgallery/plugins/zoom/lg-zoom.min.js" defer></script>*/}
-          {/*<script src="https://cdn.jsdelivr.net/npm/lightgallery/plugins/thumbnail/lg-thumbnail.min.js" defer></script>*/}
-          {/*<script src="static/js/gallery-init.js" defer></script>*/}
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery/css/lg-zoom.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery/css/lg-thumbnail.min.css" />
 
 
       </head>
@@ -46,11 +29,6 @@ export const Layout: FC = ({children}) => {
       </section>
       <section className="section-footer">
         <div className="social-icons">
-          {/*<div>*/}
-          {/*  <i className="fas fa-phone" style="font-size: 30px; color: black;"></i>*/}
-          {/*  <a href="tel:6944982331" style="text-decoration: none; color: black; margin-left: 10px;">6944982331</a>*/}
-          {/*  <a href="tel:6947144443" style="text-decoration: none; color: black; margin-left: 10px;">6947144443</a>*/}
-          {/*</div>*/}
           <div>
             <a href="https://www.facebook.com/profile.php?id=100005466162693" target="_blank">
               <i className="fab fa-facebook-square" style="font-size: 50px;color: black;"></i>
