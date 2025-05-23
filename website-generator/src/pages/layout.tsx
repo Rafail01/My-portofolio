@@ -51,6 +51,13 @@ export const Layout: FC = ({children}) => {
                     <i className="fab fa-linkedin" style="font-size: 50px; color: black;"></i>
                 </a>
             </div>
+            <div>
+                <a href="https://github.com/Rafail01" target="_blank"
+                   style="text-decoration: none; color: black; margin-left: 10px;">
+                    <i className="fab fa-github" style="font-size: 50px; color: black;"></i>
+                </a>
+            </div>
+
 
         </div>
       </section>
