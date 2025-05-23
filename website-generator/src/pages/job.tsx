@@ -1,29 +1,29 @@
 import { FC } from 'hono/jsx';
+import {jobs} from "../../public/static/data/jobs";
 
 export const JobPage: FC = () => {
 
 
     return (
         <>
-            <h1>Οι δουλιές μου</h1>
+            <h1>Οι δουλειές μου</h1>
             <div className="list">
                 <ul>
-                    <li>
-                        <div>
-                            <a href="https://www.leukipos.gr/" target="_blank"  style={{color:'white'}}
-                            >Λεύκιππος</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="https://estia.hua.gr/browse/28586" target="_blank"
-                               style={{color:'white'}}> Η πτυχιακή μου</a>
-                        </div>
-                    </li>
-
+                    {jobs.map(job => (
+                        <li key={job.id}>
+                            <div>
+                                <a
+                                    href={job.link}
+                                    target="_blank"
+                                    style={{ color: 'white' }}
+                                >
+                                    {job.title}
+                                </a>
+                            </div>
+                        </li>
+                    ))}
                 </ul>
             </div>
-
         </>
     );
 };
